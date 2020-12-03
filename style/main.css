@@ -28,6 +28,7 @@ header .logo {
   font-size: 40px;
 
   margin-left: 5px;
+  cursor: pointer;
 }
 
 header nav a {
@@ -104,6 +105,14 @@ header nav a:hover {
   height: 100%;
   width: 100%;
   display: block;
+
+  transition: 0.4s;
+}
+
+.box-filme:hover {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  zoom: 1;
 }
 
 .carrossel-filmes {
